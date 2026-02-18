@@ -13,6 +13,7 @@ public class ProductManager {
         return "Welcome to Product Manager Class";
     }
        
+       // This method calculates the discounted price based on percentage provided
         public static double calculateDiscount(double price, double percentage) {
         return price - (price * percentage / 100);
     }
