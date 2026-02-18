@@ -12,4 +12,8 @@ public class ProductManager {
        public String greeting(){
         return "Welcome to Product Manager Class";
     }
+       
+        public static double calculateDiscount(double price, double percentage) {
+        return price - (price * percentage / 100);
+    }
 }
