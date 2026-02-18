@@ -17,4 +17,9 @@ public class ProductManager {
         public static double calculateDiscount(double price, double percentage) {
         return price - (price * percentage / 100);
     }
+        
+         public String message(){
+        return "Hey prof! I have created this branch only to display the network graph.";
+    }
+        
 }
